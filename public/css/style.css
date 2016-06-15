@@ -7,6 +7,9 @@
   Version: 1.0.0
 */
 
+/*2de7c7 logo color*/
+/*2de7c7 header color*/
+/*#00c2a9 about color*/
 /*
 =======================================================================
 [Table of contents]
@@ -92,7 +95,7 @@ p{
     margin: 0px;
 }
 .typed h2 span{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 /*PRELOADER*/
 
@@ -114,7 +117,7 @@ p{
 .la-ball-scale-multiple {
     display: block;
     font-size: 0;
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .la-ball-scale-multiple.la-dark {
     color: #333;
@@ -354,8 +357,8 @@ p{
 }
 .hero_btn:hover{
     color: #fff;
-    background-color: #1cbac8;
-    border-color: #1cbac8;
+    background-color: #2de7c7;
+    border-color: #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -422,7 +425,7 @@ nav{
 }
 .menuzord.red .menuzord-menu > li.active > a, .menuzord.red .menuzord-menu > li:hover > a, .menuzord.red .menuzord-menu ul.dropdown li:hover > a {
    color: #fff !important;
-   background: #1cbac8 !important;
+   background: #2de7c7 !important;
 }
 .menuzord-menu ul.dropdown li:hover > a{
     padding-left: 30px;
@@ -478,7 +481,7 @@ nav{
     letter-spacing: 0px;
 }
 .megamenu_list_item ul li a:hover{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .menuzord-menu ul.dropdown, .menuzord-menu ul.dropdown li ul.dropdown{
     background-color: rgba(34,34,34,.97);
@@ -653,7 +656,7 @@ SLIDER
     color: #fff;
 }
 .rotate{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 
 @media(max-width: 991px){
@@ -714,7 +717,7 @@ PROMOBOX
     left: 0;
     width: 30px;
     height: 2px;
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 .single_promo_box_one p{
     font-size: 14px;
@@ -762,7 +765,7 @@ PROMOBOX
     width: 30px;
     height: 2px;
     margin-left: -15px;
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 .single_promo_box_two p{
     font-size: 14px;
@@ -777,7 +780,7 @@ PROMOBOX
     }
 }
 .single_promo_box_two:hover div{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -789,7 +792,7 @@ PROMOBOX
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: 1px solid #1cbac8;
+    border: 1px solid #2de7c7;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -804,7 +807,7 @@ PROMOBOX
     left: 50%;
     width: 0px;
     height: 0px;
-    border: 2px solid #1cbac8;
+    border: 2px solid #2de7c7;
     opacity: 0;
     border-radius: 50%;
     -webkit-transition: all .3s;
@@ -812,7 +815,7 @@ PROMOBOX
     transition: all .3s;
 }
 .single_promo_box_three div i{
-    color: #1cbac8;
+    color: #2de7c7;
     font-size: 25px;
     text-align: center;
     line-height: 70px; 
@@ -837,7 +840,7 @@ PROMOBOX
     margin-top: 40px;    
 }
 .single_promo_box_three:hover div{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 .single_promo_box_three:hover div:after{
     content: "";
@@ -846,7 +849,7 @@ PROMOBOX
     left: -6px;
     width: 80px;
     height: 80px;
-    border: 2px solid #1cbac8;
+    border: 2px solid #2de7c7;
     opacity: 1;
     border-radius: 50%;    
     -webkit-transition: all .3s;
@@ -870,7 +873,7 @@ PROMOBOX
 }
 .single_promo_box_four div i{
     font-size: 25px;
-    color: #1cbac8;    
+    color: #2de7c7;    
 }
 .single_promo_box_four h2{
     color: #333;
@@ -969,7 +972,7 @@ PROMOBOX
     padding: 10px 25px;
 }
 .btn_more:hover{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 .type_two{
     background-color: #222;
@@ -1063,7 +1066,7 @@ ABOUT US
     box-shadow: none;
 }
 .progress-bar{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     box-shadow: none;
     transition: width 3s;
 }
@@ -1170,7 +1173,7 @@ FUNFACTS
 }
 .single_facts{}
 .single_facts i{
-    color: #1cbac8;
+    color: #2de7c7;
     font-size: 40px;
 }
 .single_facts h2{
@@ -1236,7 +1239,7 @@ PORTFOLIO
 }
 /*Have Project*/
 .have_project{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 50px;  
@@ -1323,7 +1326,7 @@ SERVICE
 .number h2{
     font-size: 82px;
     font-weight: 600;
-    color: #1cbac8;
+    color: #2de7c7;
     position: relative;
     display: inline-block;
 }
@@ -1334,7 +1337,7 @@ SERVICE
     right: 13px;
     width: 115px;
     height: 5px;
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 
 .tab_right_desc{
@@ -1363,7 +1366,7 @@ SERVICE
     padding: 0px 100px;
 }
 .inner_tab_desc i{
-    color: #1cbac8;
+    color: #2de7c7;
     font-size: 50px;    
 }
 .inner_tab_desc h5{
@@ -1445,7 +1448,7 @@ SERVICE
     left: 50%;
     width: 30px;
     height: 2px;
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     margin-left: -15px;
 
 }
@@ -1604,7 +1607,7 @@ TEAM
     padding: 7px;
 }
 .team_desc ul li a:hover i{
-    color: #1cbac8;
+    color: #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;    
@@ -1666,7 +1669,7 @@ TESTIMONIAL
     letter-spacing: 2px;  
 }
 .testimonial_caption h4 a{
-        color: #1cbac8;
+        color: #2de7c7;
         text-decoration: none;
 }
 
@@ -1727,7 +1730,7 @@ WHY CHOOSE US
     margin-bottom: 100px
 }
 .single_service_two i{
-    color: #1cbac8;
+    color: #2de7c7;
     font-size: 40px;
     text-align: center;    
 }
@@ -1888,7 +1891,7 @@ NEWS
     margin-bottom: 15px;
 }
 .inner_buy_now h2 span{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .inner_buy_now p{
     color: #cacaca;
@@ -1911,8 +1914,8 @@ NEWS
 }
 .purchase_btn:hover{
     color: #fff;
-    background-color: #1cbac8;
-    border: 1px solid #1cbac8;
+    background-color: #2de7c7;
+    border: 1px solid #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -1998,27 +2001,27 @@ PRICING
 }
 .btn_price:hover{
     color: #fff;
-    background-color: #1cbac8; 
-    border-color: #1cbac8;
+    background-color: #2de7c7; 
+    border-color: #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;    
 }
 .pricing_focus .pricing_header h3{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .pricing_focus .price span.currency{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .pricing_focus .price span.value{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .pricing_focus .price span.duration{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .pricing_focus .pricing_footer .btn_price{
-    background-color: #1cbac8;
-    border-color: #1cbac8;
+    background-color: #2de7c7;
+    border-color: #2de7c7;
     color: #fff;
 }
 @media(max-width: 991px){
@@ -2060,7 +2063,7 @@ SUBSCRIBE AREA
     margin-bottom: 10px;  
 }
 .inner_subscribe h2 span{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .inner_subscribe p{
     font-size: 14px;
@@ -2114,7 +2117,7 @@ SUBSCRIBE AREA
     transition: all .5s;
 }
 .btn-sb:hover{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     color: #fff;
 }
 .inner_subscribe .form-control::-webkit-input-placeholder {
@@ -2187,7 +2190,7 @@ CLIENT AREA
     transition: all .5s;
 }
 .client_slider.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -2254,7 +2257,7 @@ CONTACT US
 .contact_item{}
 .contact_item i{
     font-size: 25px;
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .contact_item h3{
     font-size: 14px;
@@ -3230,7 +3233,7 @@ SHOP
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 .sale_label h2{
     margin: 0px;
@@ -3515,7 +3518,7 @@ SHOP
     padding-top: 50px;
 }
 .btn_crt, .btn_crt:focus, .btn_crt:active, .btn_crt:visited, .btn_crt:hover{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     color: #fff;
     border-radius: 0;
     font-weight: 600;
@@ -3988,7 +3991,7 @@ SHOP
     transition: all .5s;
 }
 .btn_st_three, .btn_st_three:active, .btn_st_three:focus, .btn_st_three:visited{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
@@ -4003,12 +4006,12 @@ SHOP
     transition: all .5s;     
 }
 .btn_st_three:hover{
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 .btn_st_four, .btn_st_four:active, .btn_st_four:focus, .btn_st_four:visited{
     background-color: transparent;
     color: #333;
-    border: 2px solid #1cbac8;
+    border: 2px solid #2de7c7;
     font-size: 12px;
     text-transform: uppercase;
     box-shadow: none;
@@ -4020,8 +4023,8 @@ SHOP
     transition: all .5s;   
 }
 .btn_st_four:hover{
-    background-color: #1cbac8;
-    border: 2px solid #1cbac8;
+    background-color: #2de7c7;
+    border: 2px solid #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -4186,7 +4189,7 @@ SHOP
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;    
@@ -4277,7 +4280,7 @@ SHOP
 }
 .btn-login:hover{
     color: #fff;
-    background-color: #1cbac8;
+    background-color: #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -4408,8 +4411,8 @@ FOOTER
     transition: all .5s; 
 }
 .inner_footer_one ul li a:hover i{
-    background-color: #1cbac8;
-    border-color: #1cbac8;
+    background-color: #2de7c7;
+    border-color: #2de7c7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -4446,7 +4449,7 @@ FOOTER
     padding-left: 0px;
 }
 .left_menu_footer_one ul li a:hover{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 .copyright_one{
     text-align: right;
@@ -4534,7 +4537,7 @@ FOOTER
     font-weight: 300;    
 }
 .copyright_text_two a{
-    color: #1cbac8;
+    color: #2de7c7;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -4704,7 +4707,7 @@ FOOTER
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: 1px solid #1cbac8;
+    border: 1px solid #2de7c7;
     margin: 0 auto;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
@@ -4718,7 +4721,7 @@ FOOTER
     left: 50%;
     width: 0px;
     height: 0px;
-    border: 2px solid #1cbac8;
+    border: 2px solid #2de7c7;
     opacity: 0;
     border-radius: 50%;
     -webkit-transition: all .3s;
@@ -4726,7 +4729,7 @@ FOOTER
     transition: all .3s;    
 }
 .single_mobile_feature div i{
-    color: #1cbac8;
+    color: #2de7c7;
     font-size: 25px;
     text-align: center;
     line-height: 70px;
@@ -4735,7 +4738,7 @@ FOOTER
     transition: all .5s;    
 }
 .single_mobile_feature:hover div {
-    background-color: #1cbac8;
+    background-color: #2de7c7;
 }
 .single_mobile_feature:hover div i {
     color: #fff;
@@ -4747,7 +4750,7 @@ FOOTER
     left: -6px;
     width: 80px;
     height: 80px;
-    border: 2px solid #1cbac8;
+    border: 2px solid #2de7c7;
     opacity: 1;
     border-radius: 50%;
     -webkit-transition: all .3s;
@@ -4993,7 +4996,7 @@ FOOTER
     color: #333;
 }
 .download ul li a:hover i{
-    color: #1cbac8;
+    color: #2de7c7;
 }
 
 @media(max-width: 1200px) and (min-width: 991px){
@@ -5010,7 +5013,7 @@ FOOTER
     }
 }
 #SERVICE i.fa {
-    background: #1cbac8;
+    background: #2de7c7;
     border-radius: 50%;
     color: #ffffff;
     font-size: 32px;
@@ -5021,7 +5024,7 @@ FOOTER
     margin-bottom: 20px;
 }
 #CONTACT i.fa {
-    background: #1cbac8;
+    background: #2de7c7;
     border-radius: 50%;
     color: #ffffff;
     font-size: 32px;
@@ -5036,10 +5039,31 @@ FOOTER
     font-family: 'Julius Sans One', sans-serif !important;
     -webkit-transition: font-size .25s ease !important;
     transition: font-size .25s ease !important;
-    color: #1cbac8 !important;
+    color: #2de7c7 !important;
     padding: 4px 0px !important;
 }
 a:hover, a:focus {
-    color: #1cbac8 !important;
+    color: #2de7c7 !important;
      text-decoration: none !important; 
+}
+.logoSize{
+    width: 120px;
+}
+
+@media screen and   (max-width:1150px) and (min-width:1000px)  {
+    .logoSize{
+        width: 120px !important;
+    }
+}
+
+@media screen and  (min-width:400px) and (max-width:560px){
+    .logoSize{
+        width: 120px !important;
+    }
+}
+
+@media screen and  (min-width:280px) and (max-width:400px){
+    .logoSize{
+        width: 120px !important;
+    }
 }

@@ -3,6 +3,7 @@ var url_prifix = 'http://52.36.75.89/';
 angular.module('AppModule', [])
 
 .controller('AppCtrl', function($scope, APIService) {
+    $scope.mail = {};
     $scope.sendEmail = function(mail) {
         if(mail && (mail.name != null || mail.name != '' || mail.name != undefined) && (mail.email != null || mail.email != '' || mail.email != undefined) && (mail.phone != null || mail.phone != '' || mail.phone != undefined) && (mail.message != null || mail.message != '' || mail.message != undefined))
         {

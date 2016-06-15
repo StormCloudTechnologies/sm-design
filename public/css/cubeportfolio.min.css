@@ -533,7 +533,8 @@
     }
     
     .cbp-caption-overlayBottomAlong .cbp-caption-activeWrap {
-        height: 80px
+        height: 80px;
+        background: rgba(45, 232, 200, 0.6);
     }
     
     .cbp-caption-overlayBottomAlong .cbp-caption:hover .cbp-caption-defaultWrap {
