@@ -31,7 +31,7 @@ var transport = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
       user: "stormcloudtechno@gmail.com",
-      pass: "Gostormcloud89"
+      pass: "gostormcloud89"
     }
 });
 
