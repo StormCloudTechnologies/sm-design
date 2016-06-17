@@ -16,6 +16,9 @@ License: http://codecanyon.net/licenses
 					$(menu).slideUp(settings.hideSpeed).find(".dropdown, .megamenu").hide(settings.hideSpeed);
 			});
 		}*/
+function hidelist(){
+    $("#menu").hide();
+}
 
 (function($){
 	
