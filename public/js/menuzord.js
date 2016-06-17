@@ -17,7 +17,9 @@ License: http://codecanyon.net/licenses
 			});
 		}*/
 function hidelist(){
-    $("#menu").hide();
+    if($( window ).width() < 769) {
+        $("#menu").hide();
+    }
 }
 
 (function($){
