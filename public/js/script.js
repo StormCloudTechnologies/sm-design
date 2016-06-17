@@ -3,7 +3,12 @@ jQuery(function($) {
 
     (function() {
         $(window).on('load', function() {
-
+          if($( window ).width() < 769) {
+              $("nav.transparrent-bg .menuzord-menu > li > a").css({
+                    'background-color': '#fff' ,
+                    'color': '#333'
+              });
+          }
 
             /*
             =========================================================================================
@@ -61,10 +66,18 @@ jQuery(function($) {
                     'background-color': 'transparent',
                     'border' : '1px solid transparent'
                 });
-                $("nav.transparrent-bg .menuzord-menu > li > a").css({
-                    'padding-top': '40px' ,
-                    'color': '#333'   
-                });  
+                if($( window ).width() < 769) {
+                    $("nav.transparrent-bg .menuzord-menu > li > a").css({
+                          'padding-top': '40px' ,
+                          'color': '#333'
+                    });
+                }
+                else {
+                    $("nav.transparrent-bg .menuzord-menu > li > a").css({
+                        'padding-top': '40px' ,
+                        'color': '#fff'   
+                    });  
+                }
                 $("nav.transparrent-bg .menuzord-brand").css({
                     'margin-top': '28px',   
                 }); 

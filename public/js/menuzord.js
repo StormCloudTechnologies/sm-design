@@ -4,6 +4,18 @@ Item Url: http://codecanyon.net/item/menuzord-responsive-megamenu/8536398
 Author: marcoarib - marco.arib@gmail.com
 License: http://codecanyon.net/licenses
 */
+/*$(document).on("click", function(event){
+	         hidelist();
+	    });
+      function hidelist(){
+			// $(menu).hide(0);
+			$(showHideButton).show(0).click(function(){
+				if($(menu).css("display") == "none")
+					$(menu).slideDown(settings.showSpeed);
+				else
+					$(menu).slideUp(settings.hideSpeed).find(".dropdown, .megamenu").hide(settings.hideSpeed);
+			});
+		}*/
 
 (function($){
 	
@@ -41,7 +53,9 @@ License: http://codecanyon.net/licenses
 				$(this).append("<span class='indicator'>" + settings.indicatorFirstLevel + "</span>");
 			}
 		});
-		$(menu).find(".dropdown").children("li").children("a").each(function(){
+	
+      
+      $(menu).find(".dropdown").children("li").children("a").each(function(){
 			if($(this).siblings(".dropdown").length > 0){
 				$(this).append("<span class='indicator'>" + settings.indicatorSecondLevel + "</span>");
 			}
@@ -179,15 +193,6 @@ License: http://codecanyon.net/licenses
 			});
 		}
 
-		function hidelist(){
-			// $(menu).hide(0);
-			$(showHideButton).show(0).click(function(){
-				if($(menu).css("display") == "none")
-					$(menu).slideDown(settings.showSpeed);
-				else
-					$(menu).slideUp(settings.hideSpeed).find(".dropdown, .megamenu").hide(settings.hideSpeed);
-			});
-		}
 		
 		// hide the bar to show/hide menu items on mobile
 		function hideMobileBar(){
@@ -196,9 +201,6 @@ License: http://codecanyon.net/licenses
 			$(showHideButton).hide(0);
 		}
 		
-		$(document).on("click", function(event){
-	        // hidelist();
-	    });
 		// unbind events
 		function unbindEvents(){
 			console.log("unbindEvents");

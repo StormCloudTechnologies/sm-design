@@ -535,8 +535,7 @@ nav.transparrent-bg .menuzord{
     padding: 0px; 
 }
 nav.transparrent-bg .menuzord-menu > li > a{
-    background: #fff;
-    color: #333;
+    color: #fff;
     padding-top: 40px;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
