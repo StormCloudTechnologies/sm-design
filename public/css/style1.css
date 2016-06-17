@@ -555,7 +555,7 @@ body {
 	
 	textarea {
 		resize: both;
-		min-height: 180px;
+		min-height: 125px;
 		min-width: 100%;
 		max-width: 100%;
 	}
@@ -3269,7 +3269,7 @@ body {
 			left: -45px;
 			margin-top: -12px;
 			background-color: #2de7c7;
-			color: #FFF;
+			color: #FFF !important;
 			width: 25px;
 			height: 25px;
 			border-width: 1px;

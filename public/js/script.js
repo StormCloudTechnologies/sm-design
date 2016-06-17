@@ -4,6 +4,7 @@ jQuery(function($) {
     (function() {
         $(window).on('load', function() {
 
+
             /*
             =========================================================================================
             1. Spinner 
@@ -26,6 +27,7 @@ jQuery(function($) {
             }
         });
     }());
+
 
 
     (function() {
@@ -61,14 +63,14 @@ jQuery(function($) {
                 });
                 $("nav.transparrent-bg .menuzord-menu > li > a").css({
                     'padding-top': '40px' ,
-                    'color': '#fff'   
+                    'color': '#333'   
                 });  
                 $("nav.transparrent-bg .menuzord-brand").css({
                     'margin-top': '28px',   
                 }); 
                 $("nav.transparrent-bg .right_mp_menu > ul > li > a").css({
                     'padding-top': '40px',
-                    'color': '#fff'    
+                    'color': '#333'    
                 });   
                 $("nav.navbar-fixed-top").removeClass("nav_border");               
                 $(".changeable").attr("src", "images/logo-2.png");                               
@@ -431,13 +433,13 @@ jQuery(function($) {
         16. MOSONRY   
         =========================================================================================
         */ 
-        var $container = $('.masonry-container');
-        $container.imagesLoaded(function() {
-            $container.masonry({
-                columnWidth: '.item',
-                itemSelector: '.item'
-            });
-        });
+        // var $container = $('.masonry-container');
+        // $container.imagesLoaded(function() {
+        //     $container.masonry({
+        //         columnWidth: '.item',
+        //         itemSelector: '.item'
+        //     });
+        // });
 
         /*
         =========================================================================================

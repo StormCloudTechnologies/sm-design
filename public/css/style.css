@@ -523,6 +523,7 @@ nav.grid_menu #menuzord{
 }
 /*TRANSPARENT NAV*/
 nav.transparrent-bg{
+    /*background-color: rgba(255, 255, 255, 0.54);*/
     background-color: transparent;
     border-bottom: 1px solid transparent;
 }
@@ -534,14 +535,15 @@ nav.transparrent-bg .menuzord{
     padding: 0px; 
 }
 nav.transparrent-bg .menuzord-menu > li > a{
-    color: #fff;
+    background: #fff;
+    color: #333;
     padding-top: 40px;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
 }
 nav.transparrent-bg .menuzord-brand{
-    margin-top: 28px;
+    margin-top: 8px;
     -webkit-transition: all .5s !important;
     -o-transition: all .5s !important;
     transition: all .5s !important;    
@@ -2340,8 +2342,9 @@ CONTACT US
     width: 100%;
 }
 .btn-dm:hover{
-    color: #333;
-    background-color: transparent;
+    color: #FFF;
+    background-color: #2de7c7;
+    border: none ;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -5066,4 +5069,13 @@ a:hover, a:focus {
     .logoSize{
         width: 120px !important;
     }
+}
+.text_color{
+    color: #2de7c7;
+}
+.text_white{
+    color: #FFF;
+}
+.font_size{
+    font-size: 60px !important;
 }

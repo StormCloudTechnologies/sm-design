@@ -71,7 +71,7 @@
     <script src="js/jquery.parallax-1.1.3.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.fitvids.js"></script>
-    <script src="js/masonry.pkgd.js"></script>
+    <!-- <script src="js/masonry.pkgd.js"></script> -->
     <script src="js/imagesloaded.pkgd.min.js"></script>    
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
@@ -81,7 +81,34 @@
     <script src="js/script.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        
+        //  $(document).ready(function () {
+        //     $("li").click(function () {
+        //         $('li > ul').hide();
+        //         $(this).children("ul").toggle();
+        //     });
+        //     $('li').hover(function(){
+        //         $(this).find('ul>li').stop().slideToggle(400);
+        //     });
+        // });
 
+
+        //  $(document).ready(function(){
+        //     // Show hide popover
+        //     $(".dropdown").click(function(){
+        //         $(this).find(".dropdown-menu").slideToggle("fast");
+        //     });
+        // });
+        // $(document).on("click", function(event){
+        //     var $trigger = $(".dropdown");
+        //     if($trigger !== event.target && !$trigger.has(event.target).length){
+        //         $(".dropdown-menu").slideUp("fast");
+        //     }            
+        // });
+
+
+    </script>
   </head>
   <body>
 
@@ -108,13 +135,13 @@
         <nav class="navbar-fixed-top onepage grid_menu transparrent-bg">
             <div class="container">
                 <div id="menuzord" class="menuzord red">
-                    <a href="javascript:void(0)" class="menuzord-brand">
-                        <img class="changeable logoSize" src="images/logo.png" alt="">
+                    <a href="#HELLO" class="menuzord-brand">
+                        <img class="changeable logoSize" src="images/logo.png" alt="" style="margin-top: -5px;">
                         <!-- <h1 id="logo"><a href="index.html">SM Design</a></h1> -->
                     </a>
-                    <ul class="menuzord-menu">
-                        <li><a href="#HELLO">HOME</a></li>
-                        <li><a href="#ABOUT">ABOUT</a></li>
+                    <ul id="menu" class="menuzord-menu">
+                        <li onclick="hidelist()"><a href="#HELLO">HOME</a></li>
+                        <li id="hide"><a href="#ABOUT">ABOUT</a></li>
                         <li><a href="#PORTFOLIO">TECHNOLOGIES</a></li>
                         <li><a href="#SERVICE">SERVICE</a></li>
                         <!-- <li><a href="#TEAM">TEAM</a></li>
@@ -128,14 +155,14 @@
         <!-- END NAV BAR -->
 
         <!-- START HERO SECTION -->
-        <div class="hero_section hero-fullscreen fixed_bg slider-parallax para-five">
+        <div class="hero_section hero-fullscreen fixed_bg slider-parallax para-five" style="padding:0px !important;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">    
                         <!-- END HERO SECTION DESC -->
                         <div class="inner_hero_section typed">
                             <h4>Design / Development / Branding</h4>
-                            <h2>WE ARE <span class="element" data-elements="CREATIVE, AWESOME, FOCUS"></span></h2>
+                            <h2 class="font_size">WE ARE <span class="element" data-elements="CREATIVE, AWESOME, FOCUSED"></span></h2>
                         </div>
                         <!-- END HERO SECTION DESC -->
                     </div>
@@ -202,50 +229,74 @@
             
         </section>
 
-         <div class="fun_facts_on_bg fixed_bg">
-            <div class="overlay black_overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 text-center">
-                            <!-- START SINGLE FUN FACTS -->
-                            <div class="single_facts">
-                                <i class="icon-pencil"></i>
-                                <h2>3215</h2>
-                                <p>line of code</p>
+          <!-- =========================
+             START TESTIMONIAL
+        ============================== -->
+        <div class="testimonial">
+            <div class="testimonial_bg fixed_bg testimonial-parallax">
+                <div class="testimonial_overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="inner_testimonial_info">
+                                    <!-- START TESTIMONIAL TITLE -->
+                                   <!--  <div class="testimonial_title">
+                                        <i class="icon-quote"></i>
+                                        <h2>TESTIMONIAL</h2>
+                                    </div> -->
+                                    <!-- START TESTIMONIAL TITLE -->
+                                    
+                                    <!-- START TESTIMONIAL CAROSEL  -->
+                                    <div id="testimonial_carosel_1" class="carousel slide" data-ride="carousel">
+                                      <!-- START Indicators -->
+                                      <ol class="carousel-indicators">
+                                        <li data-target="#testimonial_carosel_1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#testimonial_carosel_1" data-slide-to="1"></li>
+                                        <li data-target="#testimonial_carosel_1" data-slide-to="2"></li>
+                                      </ol>
+                                      <!-- START Indicators -->
+
+                                      <!-- Wrapper for slides -->
+                                      <div class="carousel-inner" role="listbox">
+                                       <!--  START SINGLE ITEM -->
+                                        <div class="item active">
+                                            <div class="testimonial_caption text_white">
+                                                <sup class="fa fa-quote-left text_color"></sup> &nbsp; I think a simple rule of business is, if you do the things that are easier first, then you can actually make a lot of progress. &nbsp;<sup class="fa fa-quote-right text_color"></sup>
+                                                <h4>Mark Zuckerberg</a></h4>
+                                            </div>
+                                        </div>
+                                        <!--  END SINGLE ITEM -->
+
+                                        <!--  START SINGLE ITEM -->
+                                        <div class="item">
+                                            <div class="testimonial_caption text_white">
+                                                <sup class="fa fa-quote-left text_color"></sup> &nbsp; Design is not just what it looks like and feels like. Design is how it works. &nbsp;<sup class="fa fa-quote-right text_color"></sup>
+                                                <h4>Steve Jobs</a></h4>
+                                            </div>
+                                        </div>
+                                        <!--  END SINGLE ITEM -->
+
+                                        <!--  START SINGLE ITEM -->
+                                        <div class="item">
+                                            <div class="testimonial_caption text_white">
+                                                <sup class="fa fa-quote-left text_color"></sup> &nbsp; It's fine to celebrate success but it is more important to heed the lessons of failure. &nbsp;<sup class="fa fa-quote-right text_color"></sup>
+                                                <h4>Bill Gates</a></h4>
+                                            </div>
+                                        </div>
+                                        <!--  END SINGLE ITEM -->
+                                      </div>
+                                    </div>
+                                    <!-- START TESTIMONIAL CAROSEL  -->
+                                </div>
                             </div>
-                            <!-- END SINGLE FUN FACTS -->
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <!-- START SINGLE FUN FACTS -->
-                            <div class="single_facts">
-                                <i class="icon-happy"></i>
-                                <h2>521</h2>
-                                <p>Happy Client</p>
-                            </div>
-                            <!-- END SINGLE FUN FACTS -->
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <!-- START SINGLE FUN FACTS -->
-                            <div class="single_facts">
-                                <i class="icon-linegraph"></i>
-                                <h2>99</h2>
-                                <p>Projects Completed</p>
-                            </div>
-                            <!-- END SINGLE FUN FACTS -->
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <!-- START SINGLE FUN FACTS -->
-                            <div class="single_facts">
-                                <i class="icon-chat"></i>
-                                <h2>500</h2>
-                                <p>Comments Recieved</p>
-                            </div>
-                            <!-- END SINGLE FUN FACTS -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- =========================
+             END TESTIMONIAL
+        ============================== -->
     <!-- =========================
          END ABOUT SECTION
     ============================== -->        
@@ -280,7 +331,7 @@
                                     <div id="js-grid-masonry" class="cbp">
                                         <!-- START SINGLE PORTFOLIO GRID -->
                                         <div class="cbp-item html">
-                                            <a href="images/work/1.png" class="cbp-caption cbp-lightbox" data-title="Easy Note<br>by Cosmin Capitanu">
+                                            <a href="images/work/1.png" class="cbp-caption cbp-lightbox">
                                                 <div class="cbp-caption-defaultWrap">
                                                     <img src="images/work/1.png" alt="">
                                                 </div>
@@ -298,7 +349,7 @@
 
                                         <!-- START SINGLE PORTFOLIO GRID -->
                                         <div class="cbp-item print">
-                                            <a href="images/work/4.jpg" class="cbp-caption cbp-lightbox" data-title="Flat Roman Typeface Ui<br>by Cosmin Capitanu">
+                                            <a href="images/work/4.jpg" class="cbp-caption cbp-lightbox">
                                                 <div class="cbp-caption-defaultWrap">
                                                     <img src="images/work/4.jpg" alt="">
                                                 </div>
@@ -316,7 +367,7 @@
 
                                         <!-- START SINGLE PORTFOLIO GRID -->
                                         <div class="cbp-item html">
-                                            <a href="images/work/5.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music for iPad<br>by Tiberiu Neamu">
+                                            <a href="images/work/5.jpg" class="cbp-caption cbp-lightbox">
                                                 <div class="cbp-caption-defaultWrap">
                                                     <img src="images/work/5.jpg" alt="">
                                                 </div>
@@ -334,7 +385,7 @@
 
                                         <!-- START SINGLE PORTFOLIO GRID -->
                                         <div class="cbp-item print">
-                                            <a href="images/work/2.png" class="cbp-caption cbp-lightbox" data-title="Flat Roman Typeface Ui<br>by Cosmin Capitanu">
+                                            <a href="images/work/2.png" class="cbp-caption cbp-lightbox">
                                                 <div class="cbp-caption-defaultWrap">
                                                     <img src="images/work/2.png" alt="">
                                                 </div>
@@ -352,7 +403,7 @@
 
                                         <!-- START SINGLE PORTFOLIO GRID -->
                                         <div class="cbp-item html">
-                                            <a href="images/work/3.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music for iPad<br>by Tiberiu Neamu">
+                                            <a href="images/work/3.jpg" class="cbp-caption cbp-lightbox">
                                                 <div class="cbp-caption-defaultWrap">
                                                     <img src="images/work/3.jpg" alt="">
                                                 </div>
@@ -371,7 +422,7 @@
 
                                         <!-- START SINGLE PORTFOLIO GRID -->
                                         <div class="cbp-item print">
-                                            <a href="images/work/6.png" class="cbp-caption cbp-lightbox" data-title="Remind~Me More<br>by Tiberiu Neamu">
+                                            <a href="images/work/6.png" class="cbp-caption cbp-lightbox">
                                                 <div class="cbp-caption-defaultWrap">
                                                     <img src="images/work/6.png" alt="">
                                                 </div>
@@ -497,9 +548,9 @@
                                             <h2>Web design</h2>
                                             <div class="inner_tab_desc">
                                                 <i class="icon-lightbulb"></i>
-                                                <h5>Brand identity has been the single most important factor for increasing sales and ensuring growth since the dawn of capitalism.</h5>
+                                                <h5>Design thinking is in our DNA. We hone the tiniest user interaction details, craft addicting and engaging experiences, and push pixels to boldly go where they've never gone before.</h5>
                                                 <!-- <h6>AB KANES</h6> -->
-                                                <p>Design thinking is in our DNA. We hone the tiniest user interaction details, craft addicting and engaging experiences, and push pixels to boldly go where they've never gone before.</p>                                                
+                                                <!-- <p>Design thinking is in our DNA. We hone the tiniest user interaction details, craft addicting and engaging experiences, and push pixels to boldly go where they've never gone before.</p> -->                                                
                                             </div>
 
                                         </div>
@@ -526,9 +577,9 @@
                                             <h2>App Development</h2>
                                             <div class="inner_tab_desc">
                                                 <i class="icon-laptop"></i>
-                                                <h5>Brand identity has been the single most important factor for increasing sales and ensuring growth since the dawn of capitalism.</h5>
+                                                <h5>Do you need a custom, iOS, Android or Windows app? Prefer a cross-platform responsive web app? Require a secure backend? If you want it, we can build it. Where others struggle, we thrive.</h5>
                                                 <!-- <h6>AB KANES</h6> -->
-                                                <p>Do you need a custom, iOS, Android or Windows app? Prefer a cross-platform responsive web app? Require a secure backend? If you want it, we can build it. Where others struggle, we thrive.</p>                                                
+                                                <!-- <p>Do you need a custom, iOS, Android or Windows app? Prefer a cross-platform responsive web app? Require a secure backend? If you want it, we can build it. Where others struggle, we thrive.</p>                                                 -->
                                             </div>
 
                                         </div>
@@ -555,9 +606,9 @@
                                             <h2>E-Commerce</h2>
                                             <div class="inner_tab_desc">
                                                 <i class="icon-pencil"></i>
-                                                <h5>Brand identity has been the single most important factor for increasing sales and ensuring growth since the dawn of capitalism.</h5>
+                                                <h5>We develop E-Commerce applications for trading or facilitation of trading in products or services using computer networks, such as Internet. Eg - Online shopping, Electronic data interchange, Mobile commerce, Pretail.</h5>
                                                 <!-- <h6>AB KANES</h6> -->
-                                                <p>We develop E-Commerce applications for trading or facilitation of trading in products or services using computer networks, such as Internet. Eg - Online shopping, Electronic data interchange, Mobile commerce, Pretail.</p>                                              
+                                                <!-- <p>We develop E-Commerce applications for trading or facilitation of trading in products or services using computer networks, such as Internet. Eg - Online shopping, Electronic data interchange, Mobile commerce, Pretail.</p>                                               -->
                                             </div>
                                         </div>
                                     </div>
@@ -583,9 +634,9 @@
                                             <h2>ERP Systems</h2>
                                             <div class="inner_tab_desc">
                                                 <i class="icon-gears"></i>
-                                                <h5>Brand identity has been the single most important factor for increasing sales and ensuring growth since the dawn of capitalism.</h5>
+                                                <h5>We develop Enterprise Resource Planning (ERP) system that allows an organization to use a system of integrated applications to manage the business and automate many back office functions related to technology, services and human resources.</h5>
                                                 <!-- <h6>AB KANES</h6> -->
-                                                <p>We develop Enterprise Resource Planning (ERP) system that allows an organization to use a system of integrated applications to manage the business and automate many back office functions related to technology, services and human resources.</p>                                                
+                                                <!-- <p>We develop Enterprise Resource Planning (ERP) system that allows an organization to use a system of integrated applications to manage the business and automate many back office functions related to technology, services and human resources.</p>                                                 -->
                                             </div>
                                         </div>
                                     </div>
@@ -628,11 +679,11 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-4 text-center">
                                 <!-- START CONTACT ADDRESS -->
-                                <div class="contact_item">
-                                    <i class="fa fa-phone "></i>
+                                <a  href="tel:+91 9741668900" class="contact_item">
+                                    <i  class="fa fa-phone "></i>
                                     <h3>CALL US</h3>
                                     <h5>+91 9741668900</h5>
-                                </div>
+                                </a>
                                 <!-- END CONTACT ADDRESS -->
                             </div>
                             <div class="col-md-4 col-sm-4 text-center">
@@ -646,11 +697,11 @@
                             </div>
                             <div class="col-md-4 col-sm-4 text-center">
                                 <!-- START CONTACT ADDRESS -->
-                                <div class="contact_item">
+                                <a href="mailto:siddharthmane89@gmail.com?Subject=Hello%20Welcome" target="_top" class="contact_item">
                                     <i class="fa fa-envelope-o"></i>
                                     <h3>EMAIL</h3>
                                     <h5>siddharthmane89@gmail.com</h5>
-                                </div>
+                                </a>
                                 <!-- END CONTACT ADDRESS -->
                             </div>
                         </div>
@@ -669,7 +720,7 @@
                                         <div style="color:red;" ng-show="contactform.Email.$invalid && !contactform.Email.$pristine" class="error-message padding-right">This field is required.</div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" ng-model="mail.phone" name="Phone" placeholder="Phone" style="height: 45px;" required> 
+                                        <input type="number" class="form-control" ng-model="mail.phone" name="Phone" placeholder="Phone" style="height: 45px;" required> 
                                         <div style="color:red;" ng-show="contactform.Phone.$invalid && !contactform.Phone.$pristine" class="error-message padding-right">This field is required.</div>
                                     </div>
                                 </div>
@@ -678,6 +729,7 @@
                                     <div style="color:red;" ng-show="contactform.Message.$invalid && !contactform.Message.$pristine" class="error-message padding-right">This field is required.</div>
                                     <button ng-disabled="contactform.$invalid" ng-click="sendEmail(mail)" type="button" class="btn btn-dm">Send Message</button>
                                 </div>
+                                <div ng-if="successMessage" style="text-align:center;color: #2de7c7;font-size: 18px;"><strong>{{ successMessage }}</strong></div>
                             </form>
                         </div>                        
                     </div>

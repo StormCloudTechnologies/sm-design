@@ -72,6 +72,7 @@ License: http://codecanyon.net/licenses
 		
 		// shows a dropdown
 		function showDropdown(item){
+			console.log("showDropdown");
 			if(settings.effect == "fade")
 				$(item).children(".dropdown, .megamenu").stop(true, true).delay(settings.showDelay).fadeIn(settings.showSpeed).addClass(settings.animation);
 			else
@@ -79,6 +80,8 @@ License: http://codecanyon.net/licenses
 		}
 		
 		// hides a dropdown
+
+	
 		function hideDropdown(item){
 			if(settings.effect == "fade")
 				$(item).children(".dropdown, .megamenu").stop(true, true).delay(settings.hideDelay).fadeOut(settings.hideSpeed).removeClass(settings.animation);
@@ -87,6 +90,8 @@ License: http://codecanyon.net/licenses
 			$(item).children(".dropdown, .megamenu").find(".dropdown, .megamenu").stop(true, true).delay(settings.hideDelay).fadeOut(settings.hideSpeed);
 		}
 		
+		 
+
 		// landscape mode
 		function landscapeMode(){
 			$(menu).find(".dropdown, .megamenu").hide(0);
@@ -164,7 +169,18 @@ License: http://codecanyon.net/licenses
 		
 		// show the bar to show/hide menu items on mobile
 		function showMobileBar(){
+			console.log("showMobileBar");
 			$(menu).hide(0);
+			$(showHideButton).show(0).click(function(){
+				if($(menu).css("display") == "none")
+					$(menu).slideDown(settings.showSpeed);
+				else
+					$(menu).slideUp(settings.hideSpeed).find(".dropdown, .megamenu").hide(settings.hideSpeed);
+			});
+		}
+
+		function hidelist(){
+			// $(menu).hide(0);
 			$(showHideButton).show(0).click(function(){
 				if($(menu).css("display") == "none")
 					$(menu).slideDown(settings.showSpeed);
@@ -175,18 +191,24 @@ License: http://codecanyon.net/licenses
 		
 		// hide the bar to show/hide menu items on mobile
 		function hideMobileBar(){
+			console.log("=====hideMobileBar==========");
 			$(menu).show(0);
 			$(showHideButton).hide(0);
 		}
 		
+		$(document).on("click", function(event){
+	        // hidelist();
+	    });
 		// unbind events
 		function unbindEvents(){
+			console.log("unbindEvents");
 			$(menu_container).find("li, a").unbind();
 			$(document).unbind("click.menu touchstart.menu");
 		}
 		
 		// Menuzord tabs
 		function menuTabs(){
+			console.log("menuTabs");
 			function startTab(tab){
 				var TabNavs = $(tab).find(".menuzord-tabs-nav > li");
 				var TabContents = $(tab).find(".menuzord-tabs-content");
