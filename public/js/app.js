@@ -1,4 +1,4 @@
-var url_prifix = 'http://localhost:5443/';
+var url_prifix = 'http://52.36.75.89:5443/';
 
 angular.module('AppModule', [])
 
