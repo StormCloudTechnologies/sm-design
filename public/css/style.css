@@ -5036,6 +5036,14 @@ FOOTER
     text-align: center;
     margin-bottom: 20px;
 }
+/*#SERVICE hoverclass :hover{
+    background: rgba(11,11,11,0.4);
+    color: #fff;
+}*/
+.hoverclass :hover{
+    background: rgba(34, 34, 34, 0.07);
+    /*color: #fff;*/
+}
 #logo {
     margin-bottom: 0 !important;
     font-family: 'Julius Sans One', sans-serif !important;
