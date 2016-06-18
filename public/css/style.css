@@ -5096,7 +5096,10 @@ a:hover, a:focus {
     font-size: 30px !important;
     }
     .font_size1{
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
 }
+/*.hoverclass{
+    display: block;
+}*/

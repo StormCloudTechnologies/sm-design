@@ -9,6 +9,17 @@ jQuery(function($) {
                     'color': '#333'
               });
           }
+          $("nav.transparrent-bg .right_mp_menu > ul > li > a").css({
+                'padding-top': '20px',
+                'margin-top' : '-10px',
+                'color': '#333'    
+
+            }); 
+        // $("nav.transparrent-bg .menuzord-menu > li > a").css({
+        //     'padding-top': '20px' ,
+        //     'color': '#333'   
+        // });   
+
 
             /*
             =========================================================================================
@@ -49,14 +60,15 @@ jQuery(function($) {
                     'border-bottom' : '1px solid #eee'
                 });
                 $("nav.transparrent-bg .menuzord-menu > li > a").css({
-                    'padding-top': '26px',
+                    'padding-top': '20px',
                     'color': '#333'    
                 }); 
                 $("nav.transparrent-bg .menuzord-brand").css({
-                    'margin-top': '15px',   
+                    'margin-top': '5px',   
                 });  
                 $("nav.transparrent-bg .right_mp_menu > ul > li > a").css({
-                    'padding-top': '26px',
+                    'padding-top': '20px',
+                    // 'margin-top' : '-10px',
                     'color': '#333'    
                 });   
                 $("nav.navbar-fixed-top").addClass("nav_border");               
@@ -68,21 +80,22 @@ jQuery(function($) {
                 });
                 if($( window ).width() < 769) {
                     $("nav.transparrent-bg .menuzord-menu > li > a").css({
-                          'padding-top': '40px' ,
+                          'padding-top': '20px' ,
                           'color': '#333'
                     });
                 }
                 else {
                     $("nav.transparrent-bg .menuzord-menu > li > a").css({
-                        'padding-top': '40px' ,
+                        'padding-top': '20px' ,
                         'color': '#fff'   
                     });  
                 }
                 $("nav.transparrent-bg .menuzord-brand").css({
-                    'margin-top': '28px',   
+                    'margin-top': '5px',   
                 }); 
                 $("nav.transparrent-bg .right_mp_menu > ul > li > a").css({
-                    'padding-top': '40px',
+                    'padding-top': '20px',
+                    // 'margin-top' : '-5px',
                     'color': '#333'    
                 });   
                 $("nav.navbar-fixed-top").removeClass("nav_border");               
