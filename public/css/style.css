@@ -5040,9 +5040,10 @@ FOOTER
     background: rgba(11,11,11,0.4);
     color: #fff;
 }*/
-.hoverclass :hover{
-    background: rgba(34, 34, 34, 0.07);
-    /*color: #fff;*/
+.hoverclass:hover {
+    opacity: 0.7;
+    border: solid 1px #DCCACA;
+    box-shadow: 2px 2px 5px #845555;
 }
 #logo {
     margin-bottom: 0 !important;
@@ -5110,4 +5111,9 @@ a:hover, a:focus {
 }
 .hoverclass{
     display: block;
+}
+.services-tile {
+    padding : 5px;
+    height: 22em;
+    padding-top: 25px;
 }
