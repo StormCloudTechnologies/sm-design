@@ -9,8 +9,12 @@ jQuery(function($) {
                     'color': '#333'
               });
           }
+          $("nav.transparrent-bg .menuzord-menu > li > a").css({
+                'padding-top': '20px'
+                // 'color': '#fff'   
+            });  
           $("nav.transparrent-bg .right_mp_menu > ul > li > a").css({
-                'padding-top': '20px',
+                'padding-top': '0px',
                 'margin-top' : '-10px',
                 'color': '#333'    
 
@@ -36,8 +40,8 @@ jQuery(function($) {
             */
             parallaxInit();
             function parallaxInit() {
-                $('.slider-parallax').parallax("30%", 0.1);
-                $('.testimonial-parallax').parallax("30%", 0.1);
+                // $('.slider-parallax').parallax("30%", 0.1);
+                // $('.testimonial-parallax').parallax("20%", 0.1);
                 $('.page-header-parallax').parallax("30%", 0.1);
                 /*add as necessary*/
             }

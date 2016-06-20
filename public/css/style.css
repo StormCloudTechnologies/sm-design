@@ -283,6 +283,7 @@ p{
 }
 .para-five{
     background-image: url(../images/slider/slide_16.jpg);
+    background-size: cover;
 }
 .para-six{
     background-image: url(../images/slider/slide_17.jpg);
@@ -1638,6 +1639,7 @@ TESTIMONIAL
     background-color: rgba(0,0,0,.8);
     padding-top: 100px;
     padding-bottom: 100px;
+    height: 350px;
 }
 .testimonial_title{
     padding-bottom: 40px;
