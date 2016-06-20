@@ -9,8 +9,12 @@ jQuery(function($) {
                     'color': '#333'
               });
           }
+          $("nav.transparrent-bg .menuzord-menu > li > a").css({
+                'padding-top': '20px' ,
+                'color': '#fff'   
+            });  
           $("nav.transparrent-bg .right_mp_menu > ul > li > a").css({
-                'padding-top': '20px',
+                'padding-top': '0px',
                 'margin-top' : '-10px',
                 'color': '#333'    
 
