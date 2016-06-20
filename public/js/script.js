@@ -10,8 +10,8 @@ jQuery(function($) {
               });
           }
           $("nav.transparrent-bg .menuzord-menu > li > a").css({
-                'padding-top': '20px' ,
-                'color': '#fff'   
+                'padding-top': '20px'
+                // 'color': '#fff'   
             });  
           $("nav.transparrent-bg .right_mp_menu > ul > li > a").css({
                 'padding-top': '0px',
