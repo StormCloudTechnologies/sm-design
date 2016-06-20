@@ -36,8 +36,8 @@ jQuery(function($) {
             */
             parallaxInit();
             function parallaxInit() {
-                $('.slider-parallax').parallax("30%", 0.1);
-                $('.testimonial-parallax').parallax("30%", 0.1);
+                // $('.slider-parallax').parallax("30%", 0.1);
+                // $('.testimonial-parallax').parallax("20%", 0.1);
                 $('.page-header-parallax').parallax("30%", 0.1);
                 /*add as necessary*/
             }
@@ -197,8 +197,8 @@ jQuery(function($) {
                 var sliderHeight = $(".hero-fullscreen").height();
                 var padTop = widnowHeight - sliderHeight;
                 $(".hero-fullscreen").css({
-                    'padding-top': Math.round(padTop / 2) + 'px',
-                    'padding-bottom': Math.round(padTop / 2) + 'px'
+                    'padding-top': Math.round(padTop / 2.5) + 'px',
+                    'padding-bottom': Math.round(padTop / 2.5) + 'px'
                 });
             }, 10);
         

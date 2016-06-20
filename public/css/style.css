@@ -283,6 +283,7 @@ p{
 }
 .para-five{
     background-image: url(../images/slider/slide_16.jpg);
+    background-size: cover;
 }
 .para-six{
     background-image: url(../images/slider/slide_17.jpg);
