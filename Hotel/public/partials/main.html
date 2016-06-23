@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/ionicons.min.css">
+<!--
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>-->
+<div class="container">
+
+<!-- ******************** Header | START ******************** -->
+
+<!-- Navigation | START -->
+<header>
+    <div class="center">
+        <a class="logo" href="index.html"><img src="images/logo.png" alt="" width="81" height="18"></a>
+        <nav>
+            <ul>
+                <li class="nav-book"><a>Contact</a></li>
+                <li><a ui-sref="app.home">Home</a>
+                    <!-- <ul>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/index.html">Home (Default)</a></li>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/index-no-booking.html">Home (No Booking)</a></li>
+                    </ul> -->
+                </li>
+                <li class="drop"><a ui-sref="app.accommodation">Accommodation</a>
+                    <!-- <ul>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/accommodation.html">Accommodation List</a></li>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/accommodation-room.html">Room Layout</a></li>
+                    </ul> -->
+                </li>
+                <li><a ui-sref="app.gallary">Gallery</a></li>
+                <!-- <li><a href="http://demo.klayemorrison.com/alpha-hotel/location.html">Location</a></li> -->
+               <!--  <li class="drop"><a href="http://demo.klayemorrison.com/alpha-hotel/about.html">More Pages</a>
+                    <ul>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/about.html">About Us</a></li>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/packages.html">Packages</a></li>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/restaurant.html">Restaurant</a></li>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/testimonials.html">Testimonials</a></li>
+                        <li class="drop"><a href="http://demo.klayemorrison.com/alpha-hotel/blog.html">Hotel Blog</a>
+                            <ul>
+                                <li><a href="http://demo.klayemorrison.com/alpha-hotel/blog.html">Blog Overview</a></li>
+                                <li><a href="http://demo.klayemorrison.com/alpha-hotel/blog-post.html">Blog Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/shortcodes.html">Shortcodes</a></li>
+                    </ul>
+                </li> -->
+                <li><a ui-sref="app.contact">Contact</a>
+                    <!-- <ul>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/contact.php">Booking Request</a></li>
+                        <li><a href="http://demo.klayemorrison.com/alpha-hotel/contact-no-booking.php">Make an Enquiry</a></li>
+                    </ul> -->
+                </li>
+            </ul>
+        </nav>
+        <div id="mobilenav"><i class="icon ion-navicon"></i></div>
+        <a class="button book-button" href="contact.html">Contact</a>
+        <div class="header-social">
+            <a href="https://www.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://www.instagram.com/klayemorrison/" target="_blank"><i class="icon ion-social-instagram-outline"></i></a>
+        </div>
+    </div>
+</header>
+<!-- Navigation | END -->
+
+ <div ui-view="container"></div>
+
+<!-- ******************** Footer | START ******************** -->
+
+<footer class="fade">
+    <div class="col-3">
+        <i class="icon ion-ios-location-outline"></i>
+        <h4>HOTEL</h4>
+        <div class="stars">
+            <i class="icon ion-android-star"></i>
+            <i class="icon ion-android-star"></i>
+            <i class="icon ion-android-star"></i>
+            <i class="icon ion-android-star"></i>
+            <i class="icon ion-android-star"></i>
+        </div>
+        <p>100 Luxury Street, Melbourne<br>
+        Victoria, Australia, 3000<br>
+        <strong>+61 3 5552 1234</strong></p>
+    </div>
+    <div class="footer-nav">
+        <ul class="footer-links">
+            <li class="hide">Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script></li>
+            <li><a href="index.html">Hotel</a></li>
+            <!-- <li><a href="http://themeforest.net/item/alpha-hotel-website-template/15582771?ref=Klayemore" target="_blank">Theme by KM</a></li> -->
+        </ul>
+        <!-- <ul id="language">
+            <li><a><span class="flag-icon flag-icon-gb"></span> English</a></li>
+            <li><a href="#"><span class="flag-icon flag-icon-it"></span> Italiano</a></li>
+            <li><a href="#"><span class="flag-icon flag-icon-de"></span> Deutsch</a></li>
+            <li><a href="#"><span class="flag-icon flag-icon-fr"></span> Français</a></li>
+        </ul> -->
+    </div>
+</footer>
+
+<!-- ******************** Footer | END ******************** -->
+</div>
