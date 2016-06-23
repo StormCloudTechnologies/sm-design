@@ -24,7 +24,7 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse applica
 
 
 // listen (start app with node server.js) ======================================
-app.listen(8456);
+app.listen(7500);
 console.log("App listening on port 7500");
 
 var transport = nodemailer.createTransport({
